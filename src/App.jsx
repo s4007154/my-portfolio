@@ -8,9 +8,8 @@ import { BrowserRouter as Router, Route, Routes } from "react-router";
 
 const App = () => {
   return (
-    <div className="w-full min-h-screen bg-gradient-to-r from-purple-600 via-fuchsia-600 to-purple-600">
+    <div className="w-full min-h-screen bg-gradient-to-r from-purple-700 via-fuchsia-600 to-purple-600">
       <Router>
-        <Navbar />
         <Routes>
           <Route path="/" element={<Home />} />
           <Route path="/About" element={<About />} />
